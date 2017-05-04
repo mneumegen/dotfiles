@@ -10,7 +10,7 @@ ln -ish "$DIR/.bash_prompt"  ~/.bash_prompt
 ln -ish "$DIR/.gitconfig"    ~/.gitconfig
 ln -ish "$DIR/.gitignore"    ~/.gitignore
 ln -ish "$DIR/.vimrc"        ~/.vimrc
-
+ln -ish "$DIR/.rubocop.yml   ~/.rubocop.yml
 touch .gitconfig.local
 touch .bash_profile.local
 
